@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/WeLearnTogether/StudyGroupSite.svg?branch=develop)](https://travis-ci.org/WeLearnTogether/StudyGroupSite)
+
 ## StudyGroupSite
 
 The project aims to build a study group website for our Javascript group. The site will contain basic information about the study group, upcoming meetups, projects, etc.
