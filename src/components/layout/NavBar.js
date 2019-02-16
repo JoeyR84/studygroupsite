@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import styled from "@emotion/styled";
 import { Link } from "@reach/router";
 
-import Logo from "../../assets/bclogo.png";
+import Logo from "../../../assets/bclogo.png";
 
 export default class Nav extends Component {
   render() {
@@ -12,7 +12,7 @@ export default class Nav extends Component {
           <Links to="/">Home</Links>
         </Item>
         <Item>
-          <Links to="/About">About</Links>
+          <Links to="/About">About Us</Links>
         </Item>
         <Item>
           <Image src={Logo} />
@@ -21,7 +21,7 @@ export default class Nav extends Component {
           <Links to="/Projects">Projects</Links>
         </Item>
         <Item>
-          <Links to="/GroupLearning">Group Learning</Links>
+          <Links to="/GroupLearning">Get Involved</Links>
         </Item>
       </Container>
     );
@@ -30,9 +30,8 @@ export default class Nav extends Component {
 
 const Container = styled.div`
   width: 100%;
-  height: 70px;
+  height: 100px;
   display: flex;
-  border: 1px solid #000;
   align-items: center;
   justify-content: space-around;
   padding-left: 50px;
@@ -41,11 +40,12 @@ const Item = styled.div`
   display: flex;
 `;
 const Image = styled.img`
-  height: 65px;
-  width: 65px;
+  height: 95px;
+  width: 95px;
 `;
 const Links = styled(Link)`
   text-decoration: none;
-  font-weight: 500;
+  font-weight: 400;
   font-size: 20px;
+  color: #000;
 `;
