@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import styled from "@emotion/styled";
 import { Link } from "@reach/router";
 
-import Logo from "../../assets/bclogo.png";
+import Logo from "../../../assets/bclogo.png";
 
 export default class Nav extends Component {
   render() {

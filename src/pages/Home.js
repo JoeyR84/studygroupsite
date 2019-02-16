@@ -14,7 +14,7 @@ export default class Home extends Component {
         <HeaderHome />
         <AboutHome />
         <ProjectsHome />
-        <GLHome />
+        {/* <GLHome /> */}
       </Container>
     );
   }

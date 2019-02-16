@@ -1,13 +1,12 @@
 import React, { Component } from "react";
 import styled from "@emotion/styled";
 import jsimage from "../../assets/jsimage.png";
-import Nav from "../NavBar/Nav";
+import Nav from "../layout/NavBar/Nav";
 
 export default class HeaderHome extends Component {
   render() {
     return (
       <Container>
-        <Nav />
         <SubContainer>
           <Img src={jsimage} alt="background of javascript logo" />
           <Title>Colorado JavaScript Project and Study Group</Title>
