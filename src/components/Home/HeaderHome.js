@@ -18,7 +18,7 @@ export default class HeaderHome extends Component {
 
 // CSS-in-JS styled components
 const Container = styled.div`
-  height: 600px;
+  height: 500px;
   width: 100vw;
   background-color: #fff;
   display: flex;

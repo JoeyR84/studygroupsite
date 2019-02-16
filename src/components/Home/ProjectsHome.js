@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import styled from "@emotion/styled";
-
+import cojs from "../../assets/COjs.png";
 export default class ProjectsHome extends Component {
   state = {
     projectDocLink:
@@ -23,8 +23,8 @@ export default class ProjectsHome extends Component {
             <CardTitle>Project Title</CardTitle>
           </Card>
           <Card>
-            <CardImg />
-            <CardTitle>Project Title</CardTitle>
+            <CardImg src={cojs} />
+            <CardTitle>This Site</CardTitle>
           </Card>
           <Card>
             <CardImg />
@@ -67,13 +67,20 @@ const Card = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
   width: 250px;
-  height: 250px;
+  height: 275x;
   border: 1px dotted #000;
+  background-color: #ce8147;
 `;
-const CardImg = styled.img``;
-const CardTitle = styled.h4``;
+const CardImg = styled.img`
+  width: 230px;
+  height: 230px;
+  object-fit: contain;
+`;
+const CardTitle = styled.h4`
+  padding-bottom: 15px;
+`;
 const Button = styled.div`
   width: 220px;
   height: 40px;
