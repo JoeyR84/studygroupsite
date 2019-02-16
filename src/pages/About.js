@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import styled from "@emotion/styled";
 
-import Nav from "../components/NavBar/Nav";
+import Nav from "../components/layout/NavBar";
 
 export default class About extends Component {
   render() {
